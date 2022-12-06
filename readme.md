@@ -1,21 +1,25 @@
-Install vitrual env
+1. Install vitrual env
 ```python3 -m venv tutorial-env```
 
-Activate virturn env
+2. Activate virturn env
 ```source tutorial-env/bin/activate```
 
-Install Django
+3. Install Django
 ```python3 -m pip install Django```
 
-1. Create project
+4. Create project
 ```django-admin startproject ocommerce```
 
 
-2. Create App
+5. Create App
 ```python manage.py startapp store_app```
 
-3. Migrate db
-```python manage.py migrate``
+6. Migrate db
+```python manage.py migrate```
 
-4. Create superuser
+7. Create superuser
 ```python manage.py createsuperuser```
+
+
+8. Download Boostrap CSS 4.6
+https://getbootstrap.com/docs/4.6/getting-started/download/
